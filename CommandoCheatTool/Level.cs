@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CommandoCheatTool
 {
@@ -34,5 +30,42 @@ namespace CommandoCheatTool
         {
             return $"Level {LevelNumber}: {Name}";
         }
+
+        #region Comparison
+
+        public override int GetHashCode()
+        {
+            return
+                0x329D79E9 ^
+                LevelNumber.GetHashCode() ^
+                Name.GetHashCode();
+        }
+
+        public override bool Equals(object obj)
+        {
+            if (!(obj is Level param))
+            {
+                return false;
+            }
+            return param.LevelNumber == LevelNumber && param.Name == Name;
+        }
+
+        public static bool operator ==(Level A, Level B)
+        {
+            var an = A is null;
+            var bn = B is null;
+            if((an && !bn) || (!an && bn) || (an && bn))
+            {
+                return an && bn;
+            }
+            return A.Name == B.Name && A.LevelNumber == B.LevelNumber;
+        }
+
+        public static bool operator !=(Level A, Level B)
+        {
+            return !(A == B);
+        }
+
+        #endregion
     }
 }

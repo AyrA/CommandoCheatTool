@@ -53,6 +53,7 @@
       <DependentUpon>FrmComCheat.cs</DependentUpon>
     </Compile>
     <Compile Include="Level.cs" />
+    <Compile Include="LevelNames.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmComCheat.resx">

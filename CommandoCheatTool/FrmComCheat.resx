@@ -117,4 +117,104 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="TtWeapon.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="TtWeapon.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="CbUzi.ToolTip" xml:space="preserve">
+    <value>Fire rate: fast
+Bullets per shot: 1
+Damage per bullet: 1
+Bullet speed: normal
+Reload: every 4 shots
+Firing while moving: Yes
+Reloading while moving: Yes
+Special: Gun remembers how many shots until reload even across gun switches and levels.
+</value>
+  </data>
+  <data name="CbLaserPistol.ToolTip" xml:space="preserve">
+    <value>Fire rate: normal
+Bullets per shot: 4
+Damage per bullet: 1
+Bullet speed: normal
+Reload: No
+Firing while moving: Yes
+Reloading while moving: N/A
+Special: Misleading name. Fires 4 shots that travel only a short distance and tend to drop to the ground.
+Because it fires 4 shots you can kill weak enemies when fired point blank at them.
+
+</value>
+  </data>
+  <data name="CbRifle.ToolTip" xml:space="preserve">
+    <value>Fire rate: slow
+Bullets per shot: 1
+Damage per bullet: 4
+Bullet speed: fast
+Reload: every shot
+Firing while moving: No
+Reloading while moving: No
+Special: Reload animation cannot be cancelled
+
+</value>
+  </data>
+  <data name="CbShotgun.ToolTip" xml:space="preserve">
+    <value>Fire rate: medium
+Bullets per shot: 6
+Damage per bullet: 1
+Bullet speed: normal
+Reload: every shot
+Firing while moving: Yes
+Reloading while moving: No
+Special: Better version of the laser pistol. Shoots 6 instead of 4 bullets, and they fly faster and drop slower. Reloads as soon as the player is stationary.
+
+</value>
+  </data>
+  <data name="CbMinigun.ToolTip" xml:space="preserve">
+    <value>Fire rate: very fast
+Bullets per shot: 1
+Damage per bullet: 1
+Bullet speed: fast
+Reload: No
+Firing while moving: No
+Reloading while moving: No
+Special: Can only be fired when stationary. Takes time to rev up and down again.
+Because the gun is held low, bullets occasionally hit dead enemies.</value>
+  </data>
+  <data name="CbMachinegun.ToolTip" xml:space="preserve">
+    <value>Fire rate: fast
+Bullets per shot: 1
+Damage per bullet: 1
+Bullet speed: normal
+Reload: No
+Firing while moving: Yes
+Reloading while moving: N/A
+Special: Will not hinder movement in any way. Arguably the best bullet firing weapon in the game.</value>
+  </data>
+  <data name="CbGaussRifle.ToolTip" xml:space="preserve">
+    <value>Fire rate: slow
+Bullets per shot: 1
+Damage per bullet: 1+
+Bullet speed: normal
+Reload: No
+Firing while moving: Yes
+Reloading while moving: N/A
+Special: Shoots grenades (weaker than regular grenades).
+The shots are very bouncy and it's easy to kill yourself.
+Great to clear out enemies behind obstacles.</value>
+  </data>
+  <data name="CbRocketLauncher.ToolTip" xml:space="preserve">
+    <value>Fire rate: very slow
+Bullets per shot: 1
+Damage per bullet: 1+
+Bullet speed: normal
+Reload: No
+Firing while moving: Limited
+Reloading while moving: N/A
+Special: Rockets have limited range (approximately to the screen edge)
+In the jungle and desert levels it is bugged and fires twice as fast.
+Can only be fired when the player feet touch the ground.
+Jumping immediately when firing (by holding the jump key) will fire a bit higher up. This shot can clear some obstacles.</value>
+  </data>
 </root>
