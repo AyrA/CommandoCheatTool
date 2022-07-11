@@ -4,12 +4,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("CommandoCheatTool")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Commando Cheat Tool")]
+[assembly: AssemblyDescription("Edits the savegame of Commando")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("CommandoCheatTool")]
-[assembly: AssemblyCopyright("Copyright ©  2022")]
+[assembly: AssemblyProduct("Commando Cheat Tool")]
+[assembly: AssemblyCopyright("Copyright © AyrA 2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
