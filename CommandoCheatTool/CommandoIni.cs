@@ -40,6 +40,16 @@ namespace CommandoCheatTool
         }
 
         /// <summary>
+        /// Gets the file name for the level file
+        /// </summary>
+        /// <returns>Level file name</returns>
+        /// <remarks>See remarks of <see cref="GetIniFileName"/></remarks>
+        public static string GetLevelFileName()
+        {
+            return Path.Combine(Path.GetDirectoryName(GetIniFileName()), "levels.dat");
+        }
+
+        /// <summary>
         /// Health. Range: 1-6 when <see cref="Armour"/> is false, otherwise 1-10
         /// </summary>
         /// <remarks>
@@ -166,6 +176,10 @@ namespace CommandoCheatTool
         public void Save()
         {
             Validate();
+            var LevelLines = new List<string>
+            {
+                "[]"
+            };
             var Lines = new List<string>
             {
                 "[Status]",
@@ -221,13 +235,16 @@ namespace CommandoCheatTool
             if (UnlockedLevels.HasFlag(LevelType.Desert))
             {
                 Lines.Add("desert=1");
+                LevelLines.Add("desert=1");
             }
             if (UnlockedLevels.HasFlag(LevelType.Ice))
             {
                 Lines.Add("ice=1");
+                LevelLines.Add("ice=1");
             }
 
             File.WriteAllLines(GetIniFileName(), Lines.ToArray());
+            File.WriteAllLines(GetLevelFileName(), LevelLines.ToArray());
         }
 
         public void Validate()
