@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 
 namespace CommandoCheatTool
 {
@@ -43,6 +44,15 @@ namespace CommandoCheatTool
         public static Level[] GetLevels()
         {
             return (Level[])Levels.Clone();
+        }
+
+        public static Level GetLevel(int LevelNumber)
+        {
+            if (LevelNumber < Level.MIN_LEVEL || LevelNumber > Level.MAX_LEVEL)
+            {
+                throw new ArgumentOutOfRangeException(nameof(LevelNumber));
+            }
+            return Levels.First(m => m.LevelNumber == LevelNumber);
         }
 
     }

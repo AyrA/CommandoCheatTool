@@ -171,7 +171,7 @@ namespace CommandoCheatTool
             this.label2.Location = new System.Drawing.Point(21, 51);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(32, 13);
-            this.label2.TabIndex = 1;
+            this.label2.TabIndex = 3;
             this.label2.Text = "Lives";
             // 
             // label3
@@ -180,7 +180,7 @@ namespace CommandoCheatTool
             this.label3.Location = new System.Drawing.Point(18, 77);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(35, 13);
-            this.label3.TabIndex = 2;
+            this.label3.TabIndex = 5;
             this.label3.Text = "Score";
             // 
             // label4
@@ -189,7 +189,7 @@ namespace CommandoCheatTool
             this.label4.Location = new System.Drawing.Point(20, 104);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(33, 13);
-            this.label4.TabIndex = 3;
+            this.label4.TabIndex = 8;
             this.label4.Text = "Level";
             // 
             // TbHealth
@@ -207,7 +207,7 @@ namespace CommandoCheatTool
             0});
             this.TbHealth.Name = "TbHealth";
             this.TbHealth.Size = new System.Drawing.Size(63, 20);
-            this.TbHealth.TabIndex = 4;
+            this.TbHealth.TabIndex = 1;
             this.TbHealth.Value = new decimal(new int[] {
             1,
             0,
@@ -218,7 +218,7 @@ namespace CommandoCheatTool
             // 
             this.TbLives.Location = new System.Drawing.Point(76, 49);
             this.TbLives.Maximum = new decimal(new int[] {
-            9999,
+            999999999,
             0,
             0,
             0});
@@ -229,7 +229,7 @@ namespace CommandoCheatTool
             0});
             this.TbLives.Name = "TbLives";
             this.TbLives.Size = new System.Drawing.Size(63, 20);
-            this.TbLives.TabIndex = 5;
+            this.TbLives.TabIndex = 4;
             this.TbLives.Value = new decimal(new int[] {
             1,
             0,
@@ -257,7 +257,7 @@ namespace CommandoCheatTool
             this.CbLevel.Location = new System.Drawing.Point(76, 101);
             this.CbLevel.Name = "CbLevel";
             this.CbLevel.Size = new System.Drawing.Size(197, 21);
-            this.CbLevel.TabIndex = 7;
+            this.CbLevel.TabIndex = 9;
             // 
             // CbDesert
             // 
@@ -296,7 +296,7 @@ namespace CommandoCheatTool
             this.LlHealthInfo.Location = new System.Drawing.Point(145, 25);
             this.LlHealthInfo.Name = "LlHealthInfo";
             this.LlHealthInfo.Size = new System.Drawing.Size(25, 13);
-            this.LlHealthInfo.TabIndex = 8;
+            this.LlHealthInfo.TabIndex = 2;
             this.LlHealthInfo.TabStop = true;
             this.LlHealthInfo.Text = "Info";
             this.LlHealthInfo.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LlHealthInfo_LinkClicked);
@@ -307,7 +307,7 @@ namespace CommandoCheatTool
             this.LlScoreInfo.Location = new System.Drawing.Point(145, 77);
             this.LlScoreInfo.Name = "LlScoreInfo";
             this.LlScoreInfo.Size = new System.Drawing.Size(25, 13);
-            this.LlScoreInfo.TabIndex = 9;
+            this.LlScoreInfo.TabIndex = 7;
             this.LlScoreInfo.TabStop = true;
             this.LlScoreInfo.Text = "Info";
             this.LlScoreInfo.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LlScoreInfo_LinkClicked);
@@ -655,6 +655,7 @@ namespace CommandoCheatTool
             this.BtnClose.TabIndex = 8;
             this.BtnClose.Text = "&Close";
             this.BtnClose.UseVisualStyleBackColor = true;
+            this.BtnClose.Click += new System.EventHandler(this.BtnClose_Click);
             // 
             // BtnReload
             // 
