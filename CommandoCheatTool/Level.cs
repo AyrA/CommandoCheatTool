@@ -2,6 +2,9 @@
 
 namespace CommandoCheatTool
 {
+    /// <summary>
+    /// Level structure for displaying in a form
+    /// </summary>
     public class Level
     {
         /// <summary>
@@ -16,6 +19,9 @@ namespace CommandoCheatTool
         /// <summary>
         /// Gets the internal level number
         /// </summary>
+        /// <remarks>
+        /// The internal level number is the number used in the INI file
+        /// </remarks>
         public int LevelNumber { get; }
         /// <summary>
         /// Gets the level name
@@ -41,6 +47,9 @@ namespace CommandoCheatTool
         /// Display string with external level number
         /// </summary>
         /// <returns>Display string</returns>
+        /// <remarks>
+        /// The external level number is the internal number adjusted to start at "1"
+        /// </remarks>
         public override string ToString()
         {
             return $"Level {LevelNumber - MIN_LEVEL + 1}: {Name}";

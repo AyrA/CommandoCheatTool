@@ -7,8 +7,14 @@ namespace CommandoCheatTool
 {
     public partial class FrmComCheat : Form
     {
+        /// <summary>
+        /// Game process
+        /// </summary>
         private Process Proc = null;
 
+        /// <summary>
+        /// Constructor
+        /// </summary>
         public FrmComCheat()
         {
             InitializeComponent();
@@ -17,11 +23,19 @@ namespace CommandoCheatTool
             LoadIni();
         }
 
+        /// <summary>
+        /// Shows info box with OK button
+        /// </summary>
+        /// <param name="Title">Messagebox title</param>
+        /// <param name="Body">Messagebox text</param>
         private void Info(string Title, string Body)
         {
             MessageBox.Show(Body, Title, MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
+        /// <summary>
+        /// Loads settings from ini
+        /// </summary>
         private void LoadIni()
         {
             var values = new CommandoIni();
@@ -60,6 +74,9 @@ namespace CommandoCheatTool
 
         }
 
+        /// <summary>
+        /// Saves values to ini
+        /// </summary>
         private void SaveIni()
         {
             var ini = new CommandoIni
@@ -98,6 +115,9 @@ namespace CommandoCheatTool
             ini.Save();
         }
 
+        /// <summary>
+        /// Starts the game, or focuses game window if already running
+        /// </summary>
         private void RunGame()
         {
             if (Proc != null && !Proc.HasExited)
@@ -133,6 +153,11 @@ namespace CommandoCheatTool
             }
         }
 
+        /// <summary>
+        /// Handles faulty game exit conditions
+        /// </summary>
+        /// <param name="sender">NOOP</param>
+        /// <param name="e">NOOP</param>
         private void ProcessExitCheck(object sender, EventArgs e)
         {
             DialogResult YN = DialogResult.No;
@@ -155,6 +180,8 @@ Want to run it again?",
                 RunGame();
             }
         }
+
+        #region Event handlers
 
         private void LlJungle_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
@@ -237,5 +264,7 @@ This allows you to fire at an enemy and get out of the way before the gun reload
         {
             Close();
         }
+
+        #endregion
     }
 }

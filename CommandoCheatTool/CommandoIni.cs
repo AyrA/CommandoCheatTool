@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CommandoCheatTool
 {
@@ -247,6 +245,10 @@ namespace CommandoCheatTool
             File.WriteAllLines(GetLevelFileName(), LevelLines.ToArray());
         }
 
+        /// <summary>
+        /// Validates values
+        /// </summary>
+        /// <remarks>This validates against sensible values, not possible values</remarks>
         public void Validate()
         {
             if (CurrentLevel < Level.MIN_LEVEL || CurrentLevel > Level.MAX_LEVEL)
@@ -296,6 +298,10 @@ namespace CommandoCheatTool
             }
         }
 
+        /// <summary>
+        /// Parse ini file contents
+        /// </summary>
+        /// <param name="Lines">INI file</param>
         private void Parse(string[] Lines)
         {
             //Note: All ini keys are unique in this game.
@@ -434,33 +440,94 @@ namespace CommandoCheatTool
             }
         }
 
+        /// <summary>
+        /// Clamps value into bounds using:
+        /// Math.Max(Min,Math.Min(Value,Max))
+        /// </summary>
+        /// <param name="Min">Lower bound</param>
+        /// <param name="Value">Value</param>
+        /// <param name="Max">Upper bound</param>
+        /// <returns>Clamped value</returns>
         private static int Range(int Min, int Value, int Max)
         {
             return Math.Min(Max, Math.Max(Min, Value));
         }
     }
 
+    /// <summary>
+    /// Supported weapon types
+    /// </summary>
     [Flags]
     public enum WeaponType
     {
+        /// <summary>
+        /// No weapon
+        /// </summary>
+        /// <remarks>This actually means pistol only</remarks>
         None = 0,
+        /// <summary>
+        /// Gauss pistol. Fires fast, unpredictable damage
+        /// </summary>
         GaussPistol = 1,
+        /// <summary>
+        /// Uzi. Fires in bursts of 4
+        /// </summary>
         Uzi = GaussPistol << 1,
+        /// <summary>
+        /// 4 bullet scatter shot
+        /// </summary>
         LaserPistol = Uzi << 1,
+        /// <summary>
+        /// Sniper rifle
+        /// </summary>
         Rifle = LaserPistol << 1,
+        /// <summary>
+        /// Fires 6 pellets
+        /// </summary>
         Shotgun = Rifle << 1,
+        /// <summary>
+        /// Rapid fire weapon
+        /// </summary>
         Minigun = Shotgun << 1,
+        /// <summary>
+        /// Close range flamethrower
+        /// </summary>
         Flamer = Minigun << 1,
+        /// <summary>
+        /// Rapid fire weapon that won't hinder movement
+        /// </summary>
         MachineGun = Flamer << 1,
+        /// <summary>
+        /// Grenade launcher
+        /// </summary>
         GaussRifle = MachineGun << 1,
-        RocketLauncher = GaussRifle << 1
+        /// <summary>
+        /// Rocket launcher
+        /// </summary>
+        RocketLauncher = GaussRifle << 1,
+        /// <summary>
+        /// Unusable weapon
+        /// </summary>
+        LaserRifle = RocketLauncher << 1
     }
 
+    /// <summary>
+    /// Unlocked levels
+    /// </summary>
     [Flags]
     public enum LevelType
     {
+        /// <summary>
+        /// Jungle only
+        /// </summary>
         None = 0,
+        /// <summary>
+        /// Desert levels
+        /// </summary>
         Desert = 1,
+        /// <summary>
+        /// Jungle levels
+        /// </summary>
         Ice = Desert << 1
     }
 }

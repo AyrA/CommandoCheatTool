@@ -1,11 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace CommandoCheatTool
 {
+    /// <summary>
+    /// Main class
+    /// </summary>
     static class Program
     {
         /// <summary>
