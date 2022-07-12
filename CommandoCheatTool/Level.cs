@@ -14,7 +14,7 @@ namespace CommandoCheatTool
         /// <summary>
         /// Minimum level number
         /// </summary>
-        public const int MIN_LEVEL = 6;
+        public const int MIN_LEVEL = 5;
 
         /// <summary>
         /// Gets the internal level number

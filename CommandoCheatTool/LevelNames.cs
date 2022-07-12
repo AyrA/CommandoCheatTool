@@ -17,6 +17,7 @@ namespace CommandoCheatTool
         /// </summary>
         private static readonly string[] Names = new string[]
         {
+            "Game Intro (Cutscene)",
             "Jungle Intro (Cutscene)",
             "Jungle 1",
             "Mine",
