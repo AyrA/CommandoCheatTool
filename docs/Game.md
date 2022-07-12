@@ -8,10 +8,13 @@
 - Select gun: `1234567890-=`
 - Throw grenades: `zxc`
 - Exit game: `Q` (Need to confirm with `Y`/`N` afterwards)
-- Reset Game: `F2`
+- Skip cutscene (some): `ESC`
+- Reset game: `F2`
 
 Note: The game ignores the users keyboard layout and will not remap keys.
 This means french and german users may find using `Z` for a grenade or `-` for the rocket launcher awkward.
+
+This game listens to keys globally, even when it doesn't has focus.
 
 # Game issues
 
@@ -34,7 +37,9 @@ Using `WIN` + `NUMPAD -` you can zoom out again when you're done gaming.
 When this happens, simply restart the game.
 There seems to be some race condition on modern machines that occasionally causes the game to crash
 when using one of the mentioned menu options.
-I occasionally need 3 to 5 tries until it works.
+It also crashes when using the "Quit" option but you likely won't notice since you're exiting the game anyways.
+
+It occasionally needs 3 to 5 tries until it works.
 
 Note: This issue only happens when you launch the game, not when resetting with `F2`.
 Instead of exiting and restarting the game completely when you change game values,
@@ -56,6 +61,11 @@ The elevator is exactly as tall as the tallest obstacle you can clear.
 Due to rounding errors, you will occasionally fail to jump over it.
 Just keep trying, you will eventually make it.
 
+## Boots don't work in level 13 (Oil Refinery)
+
+You likely died after collecting them.
+Doing so still shows them as equipped sometimes, but you have to collect them again.
+
 ## Cannot complete level 14 (Crash Site)
 
 This level is in fact a bit weird.
@@ -71,7 +81,7 @@ I don't have a solution for this except to turn off the sound temporarily.
 The only notable things you get in this level are the machine gun and rocket launcher.
 If the sound is unbearable, just skip the level using the cheat tool
 and give you the guns manually.
-You will miss out on the last part of the level
+You will miss out on the last part of the level though,
 which features a near endless stream of support characters fighting alongside you.
 
 ## Cannot use grenades in level 20 (Rocket Launch Facility)
@@ -85,7 +95,7 @@ They only become vulnerable to explosive damage in level 18 for some reason.
 
 ## Rocket launcher fires very slow
 
-No it doesn't. It fires unnaturally fast in the first two chapters for some reason.
+No it doesn't. You cheated yoursef one and found that it fires fast in the first two chapters.
 The firing rate in the last chapter is what it was intended with.
 
 I assume the default fire rate is lowered only in the last chapter
@@ -122,9 +132,23 @@ The level will start from the beginning because checkpoints are not saved in the
 There's one location where you can legitimately fall out of the level
 because of a hidden springboard placed close enough to the start of the level.
 
-###Gun X unobtainable
+## Cannot walk to the right or not at all anymore
+
+If you can only walk to the left you've found another obscure bug.
+You can either try to complete the level anyways (you can still jump),
+or press `F2` to reset.
+The bug can rarely trigger while being in the game itself,
+but seems to be more likely to appear when you start interacting with other applications.
+
+## Gun X unobtainable
 
 Not all guns are available in all chapters.
 Additionally, the gauss rifle is only available in a secret location.
+Check the level help for a list of all secrets I know of.
 
 The gauss rifle is hidden in a secret in the oil refinery.
+
+## Helmet disappears after death
+
+This is purely cosmetic (just like the helmet itslef).
+It appears again in the next level.
