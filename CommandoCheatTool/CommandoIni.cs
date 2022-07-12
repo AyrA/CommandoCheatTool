@@ -160,7 +160,7 @@ namespace CommandoCheatTool
                 //No ini file
                 Health = 6;
                 Lives = 20;
-                CurrentLevel = CommandoCheatTool.Level.MIN_LEVEL;
+                CurrentLevel = Level.MIN_LEVEL;
             }
             if (Lines != null)
             {
@@ -335,7 +335,7 @@ namespace CommandoCheatTool
                         Lives = Range(1, Value, 9999);
                         break;
                     case "LEVEL":
-                        CurrentLevel = Range(CommandoCheatTool.Level.MIN_LEVEL, Value, CommandoCheatTool.Level.MAX_LEVEL);
+                        CurrentLevel = Range(Level.MIN_LEVEL, Value, Level.MAX_LEVEL);
                         break;
                     case "SCORE":
                         Score = Range(0, Value, 3000);
@@ -403,13 +403,13 @@ namespace CommandoCheatTool
                         break;
 
                     case "GRENADE":
-                        Grenades = Range(1, Value, 6);
+                        Grenades = Range(0, Value, 6);
                         break;
                     case "NAPALM":
-                        NapalmGrenades = Range(1, Value, 6);
+                        NapalmGrenades = Range(0, Value, 6);
                         break;
                     case "SATCHEL":
-                        RemoteGrenades = Range(1, Value, 6);
+                        RemoteGrenades = Range(0, Value, 6);
                         break;
                     case "ARMOUR":
                         Armour = Value == 1;
