@@ -10,7 +10,7 @@ The game has the occasional issues, see below for potential problems and solutio
 
 ## Usage
 
-Simple double click the tool and set the values as desired.
+Simply double click the tool and set the values as desired.
 Click the links for more information.
 Each gun has a tool tip text that shows more information about it.
 
@@ -62,13 +62,13 @@ Just keep trying, you will eventually make it.
 
 This seems to be a bug caused by faster machines.
 I don't have a solution for this.
-The only notable thing you get in this level is the rocket launcher.
+The only notable thing you get in this level is the machine gun and rocket launcher.
 If the sound is unbearable, just skip the level using the cheat tool
-and give you the rocket launcher manually.
+and give you the guns manually.
 You will miss out on the last part of the level
 which features a near endless stream of support characters fighting alongside you.
 
-### Cannot kill enemies in mecha suits
+### Cannot use explosives to kill enemies in mecha suits
 
 This seems to be coded into the game this way.
 They only become vulnerable to explosive damage in level 18.
