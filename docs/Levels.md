@@ -5,6 +5,9 @@ Levels marked as "trivial" are those where you simply have to walk from left to 
 
 This doucment contains spoilers for secrets.
 
+The document will list every gun in the level but not necessarily mention every gun in the solution,
+especially for guns that you find in obvious locations on the path you have to take anyways.
+
 ## Level 3: Jungle 1
 
 The first level. Nothing special about it.
@@ -83,6 +86,8 @@ The airstrike that blows a hole in the room on the top right is random.
 This means under some rare circumstances it will not explode all metal pieces of the shelf.
 If those prevent you from getting to the roof, try to blow them up using grenades.
 Because they're meant to be blown up, the grenade should stick to it.
+The exception are the two pieces on the very right of each shelf,
+as they act as the ladder to get up.
 
 ### Guns
 
@@ -108,13 +113,13 @@ Another jungle level, but with a support character
 Walk to the right until you can go up the first tree.
 Go to the left to get the gauss pistol. Then continue to the right
 until you find your support character. Be careful,
-there's barbed wire on one branch.
+there's barbed wire on one branch that's difficult to avoid.
 Continue heading to the right until your support falls off a bridge.
 Going further to the right you have to deal with a boss fight.
 A tank will fire shells at you that you have to dodge,
 then a person peeks out on the top and fires his machine gun at you.
-When you hit that person with any gun the cycle repeats.
-After 3 cycles the tank explodes and you can go down through the hole that the exploding tank made.
+When you hit that person with your gun the cycle repeats.
+After 3 cycles the tank explodes and you can go down through the hole that the explosion made.
 Go to the left to get your support character, then go to the right to end the level.
 
 Note: In the first cycle the tank fires 3 shells, then with each cycle it increases by one.
@@ -123,7 +128,7 @@ Note: In the first cycle the tank fires 3 shells, then with each cycle it increa
 
 You can stand on the tank. Shots it fires into the sky can come back on random occasions.
 Rarely it fails to explode the bridge far enough for you to get back up.
-In that case, you have to reload.
+In that case, you have to reset or restart the game.
 
 ### Guns
 
@@ -134,7 +139,7 @@ In that case, you have to reload.
 
 The first secret is in the very first hole you get to after meeting your support character.
 Drop into the hole and hug the left wall to enter the secret.
-In the secret room, there's some goo in the ground that kills you on contact.
+In the secret room, there's some green goo on the ground that kills you on contact.
 On the shelf is the minigun. I don't know how to reliably pass over the goo,
 but keeping the jump button pressed occasionally allows you to jump instead of dying.
 If you do die, it costs you two lives.
@@ -155,11 +160,13 @@ Go to the right and down with the elevator.
 Continue to the right, then climb up.
 You will have to fight the person next to the helicopter.
 Get the keycard after the fight, then get back to the elevator.
-You can now open the door on the left by waling into it. This gets you the rifle.
+You can now open the door on the left by walking into it. This gets you the rifle.
 
 ### Trivia
 
-This level has the only item (the elevator) you activate manually with the arrow keys.
+This level has the only thing (the elevator) you activate manually with the arrow keys.
+You cannot stop the elevator once it's in motion, so don't move with it unnecessarily,
+as it takes a lot of time.
 
 ### Guns
 
@@ -167,12 +174,13 @@ This level has the only item (the elevator) you activate manually with the arrow
 
 ### Secrets
 
-At the vers start is a springboard in the ground when you walk left.
-Do not continue to walk left midair because you could accidentally exit the level.
+At the very start is a springboard in the ground when you walk left.
+Do not continue to walk left midair because you could accidentally fall out of the level.
 
 The wall to the left of the guy you have to fight contains a secret.
+
 In the top of the watch tower with the button
-you can exit through the wall on the left and jump on the roof of the inital building.
+you can exit through the wall on the left and jump on a small roof of the inital building.
 
 ## Level 10: Desert
 
@@ -224,7 +232,7 @@ Trivial at first. The flamethrower is at the very start of the level.
 At the end is a boss fight. Shoot the helicopter until it falls from the sky.
 When it does, it blows out the front of the train cabin and you can enter it and get to the chest.
 
-###Trivia
+### Trivia
 
 Standing on the tip of the train allows you to shoot the helicopter but avoid its gun.
 
@@ -266,7 +274,7 @@ even if the user interface suggests otherwise.
 
 ### Secrets
 
-In the very first building you can walk to the left wall on the top floor.
+In the very first building you can walk through the left wall on the top floor.
 
 In the second building, you can exit through the wall in the top right of the room with the button.
 If you jump when exiting you should land on a small platform with the shotgun on it.
@@ -274,8 +282,8 @@ Doing this also bypasses the first part of the climbing section.
 You must later get down through that section,
 so it's still advised to kill the enemies at the bottom first.
 
-The third exit can only be obtained with the boots.
-Simply walk through the oil pool in the second building.
+The third secret can only be obtained with the boots.
+Simply walk through the oil pool and the wall to its left in the second building.
 There will be a second oil pool.
 You can enter this pool and walk to the right to obtain the gauss rifle.
 This is the second secret to reveal a custom image.
@@ -313,10 +321,10 @@ You will only see the minigun but pick up both.
 
 On top of the first hill right after your support character stops moving is a hidden hole in the ground.
 The hole is to the right of the barbed wire.
-Inside of the secret seems to be another sectret at the bottom right wall.
-
-Be careful. This secret apears to not have been properly finished
+Inside of the secret seems to be another secret through the bottom right wall,
+however, it just leads to a dead end. Be careful. This secret apears to not have been properly finished
 and is almost impossible to leave again due to faulty ceiling placements in the hill section.
+The jetpack makes exiting a little bit easier.
 
 ## level 17: Ice
 
@@ -336,7 +344,7 @@ Trivial
 ### Secrets
 
 At the bridge, walk left towards the barbed wire to fall through the ground.
-You can visit the area under the bridge, but you cannot escape, and nothing is here.
+You can visit the area under the bridge, but you cannot leave it without the jetpack, and nothing is here.
 This is likely an incomplete secret.
 
 After the bridge eventually comes a small hill with a few bits of barbed wire on the left of it.
@@ -364,14 +372,18 @@ To the left of the exit is a wall you can walk through, and then another one.
 This gets you the machine gun.
 Sadly only half a level before you can get it in an obvious manner.
 
-Between the last two of three towers with air defense on them you can enter the wall on the left.
+After exiting the building at the top and continuing to the right,
+you eventually arrive at 3 pillars with air defenses on them.
+Between the last two of these three towers you can enter the wall on the left.
 Exiting is possible again with the springboard.
 Sometimes requires multiple attempts, and is generally easier when facing right.
 
 ## Level 19: Mecha Assembly Facility
 
-The exit condition of this level is that you kill 3 officers.
-The order is irrelevant. The completion guide gives you the most streamlined method.
+The exit condition of this level is that you kill 3 officers in any order.
+They wear a lighter blue than other enemies.
+Your guy will announce the death of the first and last officer.
+The completion guide gives you the most streamlined method.
 
 Note that this level completely lacks checkpoints.
 You always have to begin from the start when you die.
@@ -379,7 +391,7 @@ You always have to begin from the start when you die.
 ### Completion
 
 Go right from the start and grab the machine gun if you did not get it in the previous level.
-Then drop down the first hole to the right.
+Then drop down the first hole you get to.
 To the very bottom left will be the first officer you have to elliminate.
 Your guy will announce when he gets him.
 
@@ -395,6 +407,7 @@ Grabbing the rocket launcher is mandatory.
 
 You will fight a large number of enemies,
 but also have support characters flooding in from the left.
+Funnily enough, the gauss rifle is better suited for this than the rocket launcher.
 
 ### Guns
 
@@ -403,7 +416,7 @@ but also have support characters flooding in from the left.
 
 ### Secrets
 
-You can walk below the platform of the 3rd officer into the grey wall.
+You can walk below the platform of the 3rd officer into the grey wall on the right.
 
 ## Level 20: Rocket Launch Facility
 
@@ -420,12 +433,18 @@ At this point the pattern repeats.
 To avoid the rockets, simply jump over them but not with maximum height
 because he fires the rockets a bit too fast for this and will eventually hit you.
 After a few rounds of this you should beat him.
+The rocket launcher is ideal for this, but I confirmed that you can kill him with the gauss rifle too,
+it just takes longer due to the weaker explosions.
 Your team will come and destroy the turrets below the platforms, allowing you to continue.
+Note that the turrets are incincible until you beat the boss.
+Afterwards they drop to a single health point.
+The last few on the right sometimes don't get destroyed,
+so take the machine gun and fire constantly to destroy them before they can fire at you.
 
-You eventually arrive at the next boss fight.
-He will take your rocket launcher during the fight if you try to use it.
-If you don't he will take it afterwards, and no, you're not getting it back.
-That short lived fun that device was. Just use the machine gun for maximum efficiency.
+You eventually arrive at the next boss fight after a climb section.
+He will take your rocket launcher during the fight if you try to use it,
+or after the fight if you don't. You're not getting it back.
+What short lived fun that device was. Just use the machine gun and gauss rifle for maximum efficiency from here on.
 
 After beating him, drop down to the floor and go to the right.
 This will start a timed sequence on an elevator. Just kill everything left and right.
@@ -443,12 +462,12 @@ None
 
 ## Level 21: Rocket
 
-This is the last level and consists of a single bossfight
+This is the last level and consists of a single bossfight on a flying rocket.
 
 ### Completion
 
 Simply beat him again. He has more health this time.
-Being to the right side of him tends to be easier.
+Being to the right side of him tends to be easier than the left side.
 
 After you beat him, the game ends.
 Note that this fight isn't on a timer either.

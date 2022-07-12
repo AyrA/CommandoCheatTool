@@ -109,10 +109,10 @@ usually in a location you would never go such as barbed wire.
 
 Some secrets are better than others, and not all contain guns.
 The machine gun secret for example is pretty useless
-because the secret is halfway through level 18,
-and you get the gun at the start of the next level legitimately.
+because the secret is half a level before you get it in an obvious manner.
 
-On the other hand, you can find the laser pistol which can kill weak enemies in one shot in level 5.
+On the other hand, you can find the laser pistol which can kill weak enemies in one shot in level 5,
+and it stays usable for a fairly long time.
 
 I'm not aware of a complete list of secrets and items.
 If you're good at reverse engineering, you may want to try to extract map data from the game.
@@ -180,7 +180,7 @@ If you want multiple savegames you must copy the INI file manually.
 
 ## Death
 
-When you die you have to start from the previouscheckpoint.
+When you die you have to start from the previous checkpoint.
 The game will however not respawn any enemies,
 even those killed after the last checkpoint.
 
@@ -195,16 +195,15 @@ Having the gauss rifle available in the last chapter will make your life a lot e
 
 ## Story
 
-The story of the game is fairly simply and nothing special.
-Knowing the story is optional,
-so mashing the ESC key will not make you miss out on much.
+The story of the game is fairly simple and nothing special.
+Knowing the story is optional, so mashing the ESC key will not make you miss out on much.
 
 ### Chapter 1
 
 At 4 AM terrorists steal nuclear warheads from a convoy in south Texas.
 You're responsible for retrieving them again.
-Some cuban terrorists claim responsibility
-so you're dropped into the Amazon rainforrest in the first chapter.
+Some cuban terrorists claim responsibility,
+meaning you're dropped into the Amazon rainforrest in the first chapter.
 In the last level they escape (what surprise) but crash over a war zone.
 
 ### Chapter 2
@@ -218,8 +217,8 @@ who escapes again.
 
 ### Chapter 3
 
-They track him to Alaska so you're sent there next.
-Complete the game and your character is promised a medal.
+They track the traitor to Alaska so you're sent there next.
+Complete the chaopter and the game ends. Your character is promised a medal.
 
 ## Names
 
@@ -227,7 +226,7 @@ Your character is named Phil, your enemy is Simon.
 
 ## Level names
 
-The level names I just made up.
+I just made up the level names.
 The chapters are named in the menu as "Jungle Escapades", "Desert Capers", "Ice Schennanigans".
 
 In the cutscenes we get to know that:
@@ -244,4 +243,4 @@ There are 3 secrets with a custom background.
 - The second is some cartoon figure
 - The third one is the top half of a naked man
 
-See also: https://en.wikipedia.org/wiki/Goatse.cx
+If you don't know what the Goatse image is, check wikipedia: https://en.wikipedia.org/wiki/Goatse.cx
